@@ -22,7 +22,7 @@ Golang (Go)
 
 ## Autor(es)
 
-[Seu nome ou nomes da dupla]
+Alisson Rodrigues e Jamille Monteiro
 
 ## Como executar
 
