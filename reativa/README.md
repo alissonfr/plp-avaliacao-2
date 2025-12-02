@@ -18,7 +18,7 @@ Golang (Go)
 
 ## Paradigma demonstrado
 
-**Reativo** - Aproximação ao paradigma reativo usando goroutines e channels para criar streams de eventos assíncronos.
+**Reativo** - Modelo baseado em fluxos assíncronos de dados, onde tudo é um stream e você reage a mudanças usando observables. Foca em não bloqueio, backpressure e alta escalabilidade.
 
 ## Autor(es)
 

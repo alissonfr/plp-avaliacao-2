@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	multiplicacao := operacoes.NewMultiplicacao()
-	divisao := operacoes.NewDivisao()
+	var multiplicacao operacoes.Operacao[int] = operacoes.Multiplicacao{}
+	var divisao operacoes.Operacao[float64] = operacoes.Divisao{}
 
 	fmt.Println(multiplicacao.Calcular(3, 2))
 	fmt.Println(divisao.Calcular(3, 2))

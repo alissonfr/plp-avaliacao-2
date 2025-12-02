@@ -16,7 +16,7 @@ Golang (Go 1.18+)
 
 ## Paradigma demonstrado
 
-**Genérico** - Utilizando type parameters para criar código reutilizável que mantém a segurança de tipos.
+**Genérico** - Permite escrever código reutilizável e seguro em tempo de compilação, usando tipos parametrizados (ex.: List<T>). Evita casts e melhora a robustez.
 
 ## Autor(es)
 

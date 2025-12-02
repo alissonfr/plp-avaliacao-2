@@ -18,7 +18,7 @@ Golang (Go)
 
 ## Paradigma demonstrado
 
-**Orientado a Objetos** - Utilizando structs, interfaces, encapsulamento, polimorfismo e composição.
+**Orientado a Objetos** - Organiza o software em objetos com estado e comportamento, usando encapsulamento, herança, polimorfismo e abstração para criar sistemas modulares e extensíveis.
 
 ## Autor(es)
 
