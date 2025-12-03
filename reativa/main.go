@@ -3,15 +3,16 @@ package main
 import (
 	"fmt"
 	"os"
-	"time"
 	"plp-avaliacao-2/reativa/impl"
 	"plp-avaliacao-2/reativa/impl/mensageiros"
 	"plp-avaliacao-2/reativa/impl/mensagens"
+	"plp-avaliacao-2/reativa/mensageiro"
 	"plp-avaliacao-2/reativa/mensagem"
+	"time"
 )
 
 func main() {
-	mensageiro := mensageiros.NewWhatsApp()
+	var mensageiro mensageiro.Mensageiro[string, *os.File] = mensageiros.NewWhatsApp()
 	erros := make([]*mensagens.Erro, 0)
 
 	mensagensChan := make(chan mensagem.Mensagem, 10)
